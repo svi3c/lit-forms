@@ -1,0 +1,33 @@
+{
+  "name": "lit-forms",
+  "version": "1.0.0",
+  "description": "Supercharge your forms in lit",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "vite ./demo",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svi3c/lit-forms.git"
+  },
+  "keywords": [
+    "lit",
+    "forms"
+  ],
+  "author": "Sven Rogge <sreglitzki@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/svi3c/lit-forms/issues"
+  },
+  "homepage": "https://github.com/svi3c/lit-forms#readme",
+  "devDependencies": {
+    "esbuild": "^0.17.11",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.4",
+    "vitest": "^0.29.2"
+  },
+  "dependencies": {
+    "lit": "^2.6.1"
+  }
+}
